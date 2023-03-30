@@ -1,0 +1,148 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+h1, h2, h3, h4, h5, h6, a, p, li{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: normal;
+    color: black;
+    text-decoration: none;
+}
+body{
+    max-width: 1200px;
+    margin: 0px auto;
+}
+header, footer {
+    height: 80px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    background-color: lavender;
+}
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #000;
+}
+footer {
+    margin-top: 20px;
+    border-top: 1px solid #000;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    margin-top: 8px;
+
+}
+h1 {
+    font-size: 32px;
+}
+.newsletter {
+    text-align: center;
+    width: 1200px;
+}
+.form-button {
+    text-align: center;
+    background-color: forestgreen;
+    width: 300px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    
+}
+input, textarea {
+    width: 300px;
+}
+.formbutton {
+    text-align: center;
+    background-color: forestgreen;
+    width: 145px;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+    text-align: center;
+}
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.pothoscontainer {
+    display: inline-block;
+    align-items: center;
+}
+.card {
+    width: 300px;
+    text-align: left;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 30px;
+    overflow: hidden;
+    display: inline-block;
+    height: fit-content;
+    vertical-align: top;
+    background-color: lavender;
+}
+.pothoscard {
+    width: 300px;
+    text-align: left;
+
+}
+.card-description {
+    font-style: italic;
+    text-align: left;
+    padding-left: 0px;
+}
+.pothosdescription 
+{
+    font-style: italic;
+    text-align: left;
+    padding: 0px;
+}
+.social-icon {
+    width: 30px;
+    display: inline;
+    margin-left: 8px;
+}
+.background {
+    background-image: url("IMG/hero1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 600px;
+}
+.background-thanks {
+    background-image: url("IMG/thankshero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 600px;
+
+}
+.citation, .citation a {
+    color: #ccc;
+    text-align: center;
+}
+@media only screen and (max-width: 522px) {
+    header {
+        display: block;
+        height: 110px;
+        text-align: center;
+    }
+    nav {
+        margin: 0px auto;
+    }
+}
